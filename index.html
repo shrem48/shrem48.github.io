@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduFlash AI Legal</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --secondary: #7c3aed;
+      --bg: #f8fafc;
+      --text: #0f172a;
+      --muted: #475569;
+      --card: #ffffff;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 40px 28px;
+      box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary);
+      background: rgba(37, 99, 235, 0.08);
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: 40px;
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      margin: 0 auto;
+      max-width: 620px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    .card {
+      display: block;
+      text-decoration: none;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 22px 20px;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+      color: inherit;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 36px rgba(15, 23, 42, 0.1);
+      border-color: #cbd5e1;
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .brand {
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding-top: 28px;
+      }
+
+      .hero {
+        padding: 28px 18px;
+        border-radius: 18px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="badge">EduFlash AI</div>
+      <h1><span class="brand">Legal & Support Center</span></h1>
+      <p class="subtitle">
+        This site provides the official Privacy Policy, Terms of Service, and Support information
+        for EduFlash AI.
+      </p>
+
+      <div class="grid">
+        <a class="card" href="/privacy.html">
+          <h2>Privacy Policy</h2>
+          <p>Read how EduFlash AI collects, uses, stores, and protects user information.</p>
+        </a>
+
+        <a class="card" href="/terms.html">
+          <h2>Terms of Service</h2>
+          <p>Read the rules, conditions, and legal terms that govern use of EduFlash AI.</p>
+        </a>
+
+        <a class="card" href="/support.html">
+          <h2>Support</h2>
+          <p>Get contact information and support guidance for account, subscription, and app issues.</p>
+        </a>
+      </div>
+
+      <div class="footer">
+        Contact: <a href="mailto:support@eduflashai.com">support@eduflashai.com</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
